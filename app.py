@@ -3,7 +3,7 @@ from flask import render_template
 import json
 
 app = WebSocketServer().create_app()
-messages = []
+#messages = []
 message_storage = {}
 
 @socketio.on('connect')
